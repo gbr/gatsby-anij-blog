@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Robot:300,300i,700');
+
+$background: #f7f9ff;
+$black-text: #0c0c0c;
+$red: #ff3600;
+// $typography: Roboto;
+
+body {
+  background-color: $background;
+  color: $black-text;
+
+  // font-family: $typography, Arial;
+  // font-size: 18px;
+  // line-height: 1.5;
+  // font-weight: 300;
+
+  max-width: 780px;
+  margin: 80px auto 80px auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+
+  :not(img) a {
+    margin-left: 30px;
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+}
+
+section {
+  margin: 40px 0 0 0;
+}
+
+nav a {
+  color: $black-text;
+  text-decoration: none;
+}
+
+nav a.selected,
+p a {
+  color: $black-text;
+  text-decoration: none;
+  border-bottom: 3px solid $red;
+}
+
+img {
+  max-width: 780px;
+}
+
+p.quote {
+  font-weight: 600;
+  font-style: italic;
+}
+
+p.read-more {
+  font-weight: 700;
+}
+
+div.blog-posts {
+  max-width: 540px;
+
+  a {
+    text-decoration: none;
+    color: $black-text;
+    display: block;
+    margin: 0 0 40px 0;
+  }
+}
+
+div.circle {
+  position: fixed;
+  bottom: -250px;
+  right: -250px;
+  width: 500px;
+  height: 500px;
+  background-color: $red;
+  border-radius: 50%;
+}
+
+div.post {
+  h3 {
+    margin-top: 80px;
+  }
+
+  p {
+    max-width: 540px;
+    margin-bottom: 40px;
+  }
+
+  img {
+    max-width: 780px;
+  }
+}
