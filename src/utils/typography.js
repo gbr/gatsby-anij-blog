@@ -8,6 +8,7 @@ const typography = new Typography({
   bodyWeight: 400,
   headerWeight: 700,
   includeNormalize: true, // set to false if any issues
+  blockMarginBottom: 1.5,
 })
 export const { scale, rhythm, options } = typography
 export default typography
