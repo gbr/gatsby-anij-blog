@@ -9,13 +9,13 @@ export default ({ data }) => (
     <SEO title="Home" />
     <h1>{data.site.siteMetadata.title}</h1>
     <div className="blog-posts">
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-    <Link to={node.fields.slug} key={node.fields.slug}>
-        <h3>{node.frontmatter.title} </h3>
-        <p>{node.frontmatter.excerpt}</p>
-          <p className="read-more">Read more ></p>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <Link to={node.fields.slug} key={node.fields.slug}>
+          <h2>{node.frontmatter.title} </h2>
+          <p className="excerpt">{node.frontmatter.excerpt}</p>
+          <p className="read-more">Read more</p>{" "}
         </Link>
-    ))}
+      ))}
     </div>
   </Layout>
 )
@@ -29,7 +29,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { date: { ne: null } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
     ) {
       totalCount
       edges {

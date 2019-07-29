@@ -41,18 +41,18 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 780,
-              wrapperStyle: "width:144%;",
+              wrapperStyle: "width:144%; margin-top:80px; margin-bottom:80px;",
             },
           },
         ],
       },
     },
     `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-typography`,
+    //   options: {
+    //     pathToConfigModule: `src/utils/typography`,
+    //   },
+    // },
   ],
 }

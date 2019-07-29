@@ -1,7 +1,8 @@
 ---
 title: Everybody wears Supreme
 date: 2018-06-25 23:51:39 Z
-excerpt: One of the five supreme stores is located in omotensando in harajuku, Tokyo,
+excerpt:
+  One of the five supreme stores is located in omotensando in harajuku, Tokyo,
   and this store is a smaller one in Tokyo comparing with the other one in Shibuya.
 ---
 
@@ -11,9 +12,8 @@ One of the five supreme stores is located in omotensando in harajuku, Tokyo, and
 
 ![The lineup going to the crosswalk](./../uploads/blog-1b.jpg)
 
-Supreme items normally drop at 11 am local time every Saturday in Japan, so if you are interested in supreme and you are coincidentally in Japan, try your luck to queue for the drop one might before Saturday which is Friday. It is gonna be a time consuming event, but it's one of the typical properties fashion event in Japan. There would be staffs adjust the teams into different sections at the Friday night, and some people lucky who get a small number(there would be draw before the line up) can get in the store preferentially. You can get some hyped  items if you are least than 200, but it depends on what supreme are releasing that week, some most hyped items gone pretty fast as it dropped.  
+Supreme items normally drop at 11 am local time every Saturday in Japan, so if you are interested in supreme and you are coincidentally in Japan, try your luck to queue for the drop one might before Saturday which is Friday. It is gonna be a time consuming event, but it's one of the typical properties fashion event in Japan. There would be staffs adjust the teams into different sections at the Friday night, and some people lucky who get a small number(there would be draw before the line up) can get in the store preferentially. You can get some hyped items if you are least than 200, but it depends on what supreme are releasing that week, some most hyped items gone pretty fast as it dropped.
 
-Believe me, queuing can almost represent Japanese people attitude to life such that order is the most important rule to follow. However, if you go there not in the period of season, there are actually no many good stuffs selling in store, for me, I just got a pack of 3 Hanes supreme tee for about 6000 yen, which is not a big deal but still decent. You can pay by credit card or cash, don't worry about what type of payment supreme can't do, they accept any payment.[Visit the full article here](https://www.tokyocreative.com/articles/19065-experience-in-supreme-harajuku-tokyo-and-osaka)
+Believe me, queuing can almost represent Japanese people attitude to life such that order is the most important rule to follow. However, if you go there not in the period of season, there are actually no many good stuffs selling in store, for me, I just got a pack of 3 Hanes supreme tee for about 6000 yen, which is not a big deal but still decent. You can pay by credit card or cash, don't worry about what type of payment supreme can't do, they accept any payment. Interested in reading more? [Visit the full article here](https://www.tokyocreative.com/articles/19065-experience-in-supreme-harajuku-tokyo-and-osaka)
 
 ![Look out for the logo](./../uploads/blog-1c.jpg)
-
