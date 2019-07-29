@@ -1,19 +1,36 @@
 import React from "react"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
-export default () => (
+export default ({ data }) => (
   <Layout>
-    <SEO title="About Tiffany" />
-    <h2>About Tiffany</h2>
-    <p>
-      Tiffy is a travel planning freak, formerly an Asia Pacific finance manager
-      and currently a digital marketing ninja. Despite being a nervous flyer
-      with plane jolts sending chills down her spine, Tiffy’s wanderlust has led
-      her to visit Japan for 6 times (and counting). Her favorite cities are
-      Kyoto and Tokyo and would choose to visit Japan over Paris in a heartbeat!
-    </p>
-    <p className="quote">“Don't listen to what they say. Go see.”</p>
+    <div className="post">
+      <Img
+        style={{ marginBottom: "60px" }}
+        fluid={data.aboutImg.childImageSharp.fluid}
+      />
+      <h2>{data.markdownRemark.frontmatter.title}</h2>
+      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+    </div>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    aboutImg: file(relativePath: { eq: "pages/uploads/about.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    markdownRemark(fields: { slug: { eq: "/about/" } }) {
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+`
