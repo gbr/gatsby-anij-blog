@@ -41,7 +41,7 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 780,
-              wrapperStyle: "width:144%; margin-top:80px; margin-bottom:80px;",
+              // wrapperStyle: "",
             },
           },
         ],
