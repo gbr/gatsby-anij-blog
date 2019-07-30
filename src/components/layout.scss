@@ -5,13 +5,13 @@ $black-text: #0c0c0c;
 $red: #ff3500;
 $typography: Roboto;
 
-$break-med: 640px;
-$break-large: 1024px;
+$break-small: 640px;
+$break-large: 900px;
 
 html {
   font-size: 14px;
 
-  @media (min-width: $break-med) {
+  @media (min-width: $break-small) {
     font-size: 16px;
   }
 
@@ -26,15 +26,27 @@ body {
 
   font-family: $typography, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 600;
+
+  @media (min-width: $break-small) {
+    font-weight: 500;
+  }
+
+  @media (min-width: $break-large) {
+    font-weight: 300;
+  }
 
   max-width: 21.66em;
   margin: 2.22em auto 2.22em auto;
 
-  @media (min-width: $break-med) {
+  @media (min-width: $break-small) {
+    max-width: 36em;
+    margin: 3.33em auto 3.33em auto;
+  }
+
+  @media (min-width: $break-large) {
     max-width: 43.33em;
     margin: 4.44em auto 4.44em auto;
-
   }
 }
 
@@ -186,7 +198,7 @@ div.post {
     margin-top: 2.22em;
     margin-bottom: 2.22em;
 
-    @media (min-width: $break-med) {
+    @media (min-width: $break-large) {
       width: 144%;
       margin-top: 4.44em;
       margin-bottom: 4.44em;
