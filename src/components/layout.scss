@@ -2,7 +2,7 @@
 
 $background: #f7f9ff;
 $black-text: #0c0c0c;
-$red: #ff3600;
+$red: #ff3500;
 $typography: Roboto;
 
 $break-med: 640px;
@@ -40,9 +40,9 @@ body {
 
 // TODO figure out how to get red circle to
 // blend with text
-p {
-  mix-blend-mode: difference;
-}
+// p {
+//   mix-blend-mode: difference;
+// }
 
 h1 {
   font-size: 4.44rem;
@@ -101,6 +101,15 @@ p a {
   color: $black-text;
   text-decoration: none;
   border-bottom: 3px solid $red;
+  // TODO figure out how to make bottom border blend with red circle
+}
+
+nav a.selected {
+  padding-bottom: 0.2em;
+}
+
+p a {
+  padding-bottom: 0.1em;
 }
 
 img {
@@ -145,10 +154,10 @@ div.blog-posts {
 div.circle {
   position: fixed;
 
-  bottom: -14em;
-  right: -14em;
-  width: 28em;
-  height: 28em;
+  bottom: -20em;
+  right: -20em;
+  width: 40em;
+  height: 40em;
 
   background-color: $red;
   // mix-blend-mode: screen;
