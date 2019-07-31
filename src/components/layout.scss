@@ -166,10 +166,17 @@ div.blog-posts {
 div.circle {
   position: fixed;
 
-  bottom: -20em;
-  right: -20em;
-  width: 40em;
-  height: 40em;
+  bottom: -10em;
+  right: -10em;
+  width: 20em;
+  height: 20em;
+
+  @media (min-width: $break-small) {
+    bottom: -20em;
+    right: -20em;
+    width: 40em;
+    height: 40em;
+  }
 
   background-color: $red;
   // mix-blend-mode: screen;
